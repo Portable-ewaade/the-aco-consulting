@@ -1,0 +1,51 @@
+stages:
+  - build
+#   - deploy-dev
+  - deploy-prod
+
+
+build:
+  stage: build
+  image: node:16.3.0-alpine3.13
+  artifacts:
+    untracked: true
+  only:
+    - staging
+    - main
+  before_script:
+    - npm install
+    - if [ "$CI_COMMIT_REF_NAME" == "staging" ]; then environment="dev"; elif [ "$CI_COMMIT_REF_NAME" == "main" ]; then environment="prod"; fi
+  script:
+    # - source .${environment}.env
+    # - echo REACT_APP_URL=$REACT_APP_URL >> .env
+    # - cat .env
+    - npm run build
+
+# deploy-dev:
+#   stage: deploy-dev
+#   image: python:3.8
+#   dependencies: 
+#     - build
+#   only:
+#     - staging
+#   before_script:
+#     - pip3 install awscli
+#     - source .dev.env
+#   script:
+#     - aws s3 sync build s3://${site_bucket_name}-dev/
+
+
+deploy-prod:
+  stage: deploy-prod
+  image: python:3.8
+  dependencies: 
+    - build
+  only:
+    - main
+  before_script:
+    - pip3 install awscli
+    # - source .prod.env
+  script:
+    - aws s3 sync build s3://${site_bucket_name}-prod/
+    - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
+
