@@ -673,4 +673,30 @@ a {
 	font-weight: bold;
 }
 
+/* who we are */
+.quote{
+	position: absolute;
+	top: 25em;
+	width: 75%;
+	margin: auto;
+	padding: 2rem 3.5rem;
+	border-radius: 25px;
+}
 
+.line--aco{
+	border-bottom: 5px solid #CC0039;
+	color: #CC0039 !important;
+}
+
+/* navigation */
+.nav-link:hover {
+  color: #CC0039;
+  font-weight: 700 !important;
+  border-bottom: #CC0039 solid 1px;
+}
+
+.active {
+	color: #CC0039  !important;
+	font-weight: 700 !important;
+	border-bottom: #CC0039 solid 1px;
+}

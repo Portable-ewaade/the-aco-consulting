@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <Navbar />
        {/* section-1 */}
-       <section className="home-hero  text-light pt-5 pb-5 mt-5 welcome " style={{backgroundImage: 'url("../../../../assets/images/hero-bg.png")'}}>
+       <section className="home-hero  text-light pt-5 pb-5 mt-5 welcome" style={{backgroundImage: 'url("../../../../assets/images/hero-bg.png")'}}>
           <div className="ui-wrapper-xxlarge">
             <div className="container mt-5 pt-5 text-start justify-content-center">
               <div className="row">
@@ -16,6 +16,7 @@ const Home = () => {
                     Welcome to <br /> a &amp; co consulting <br />
                     Company
                   </h1>
+                 
                 </div>
               </div>
             </div>
@@ -30,10 +31,14 @@ const Home = () => {
                   <h5 className="black fs-20">
                     Hello,
                   </h5>
-                  <h1 className="black fs-50 font-weight-bold">
-                    We are Consultant
+                  <h1 className="black fs-50 font-weight-light">
+                    We are <span className="line--aco">Consultant</span>
+                    
                   </h1>
+                  {/* <span className=''>{' h'}</span> */}
+                
                 </div>
+                
                 <div className="col-md-6">
                   <p className="black">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam distinctio ipsa saepe possimus provident esse nesciunt facere repellat perferendis est, quaerat tempore.
@@ -63,7 +68,7 @@ const Home = () => {
                   <img src="../../../../assets/images/pexels-designecologist-1779487.jpg" alt="" className="img-fluid w-70 rounded" />
                 </div>
                 <div className="col-md-6">
-                  <h1 className="black fs-40 font-weight-medium mt-5">
+                  <h1 className="black fs-40 font-weight-light mt-5">
                     Technology Advancement
                   </h1>
                   <p className="black mt-3">
@@ -86,7 +91,7 @@ const Home = () => {
             <div className="container">
               <div className="row">
                 <div className="col-lg-3 mx-auto">
-                  <h5 className="white fs-40 font-weight-medium" style={{letterSpacing: '10px'}}>
+                  <h5 className="white fs-40 font-weight-light" style={{letterSpacing: '10px'}}>
                     Our Works
                   </h5>
                 </div>
@@ -168,7 +173,7 @@ const Home = () => {
                 <div className="col-md-8 col-lg-6">
                   <div className="header-section">
                     <h3 className="small-title">Our Core Values</h3>
-                    <h2 className="title">Lorem, ipsum dolor.</h2>
+                    <h2 className="title font-weight-light">Our Team</h2>
                   </div>
                 </div>
               </div>
