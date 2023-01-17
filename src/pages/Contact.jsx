@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-5  mb-2">
+                <div className="col-md-6  mb-2">
                   <div className="card-body text">
                     <div>
                       <h4>Ask how we can help you:</h4>
@@ -55,7 +55,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6  mb-2">
+                <div className="col-md-4 offset-md-1   mb-2">
                   <form className="mt-5">
                     <div className="form-group">
                       <label htmlFor="exampleInputEmail1">First Name</label>
@@ -71,7 +71,7 @@ const Contact = () => {
                     </div>
                     <div class="form-group mb-3">
                       <label for="exampleFormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                     </div>
                     <Link className="btn white csbg-aco-red btn-lg p-2 w-100">SEND A MESSAGE</Link>
                   </form>

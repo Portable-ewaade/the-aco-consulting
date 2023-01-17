@@ -7,9 +7,9 @@ const Home = () => {
     <>
     <Navbar />
        {/* section-1 */}
-       <section className="home-hero  text-light pt-5 pb-5 mt-5 welcome" style={{backgroundImage: 'url("../../../../assets/images/hero-bg.png")'}}>
+       <section className="home-hero  text-light pt-5 pb-5  welcome" style={{backgroundImage: 'url("../../../../assets/images/hero-bg.png")'}}>
           <div className="ui-wrapper-xxlarge">
-            <div className="container mt-5 pt-5 text-start justify-content-center">
+            <div className="container  pt-5 text-start justify-content-center">
               <div className="row">
                 <div classname="col-lg-6 col-md-8">
                   <h1 className="fs-65 white font-weight-bold">
@@ -23,7 +23,7 @@ const Home = () => {
           </div>
         </section>
         {/* section-2 */}
-        <section className="text-light pt-5 pb-5 mt-5 ">
+        <section className="text-light pt-5 pb-5">
           <div className="ui-wrapper-medium">
             <div className="container">
               <div className="row">
@@ -86,7 +86,7 @@ const Home = () => {
           </div>
         </section>
         {/* section-3 */}
-        <section className="p-5 csbg-hash ">
+        {/* <section className="p-5 csbg-hash ">
           <div className="ui-wrapper-large">
             <div className="container">
               <div className="row">
@@ -133,9 +133,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* section-4 */}
-        <section className="p-4 methodology ">
+        <section className="methodology ">
           <div className="ui-wrapper-large">
             <div className="text-center">
               <div className="container">
@@ -165,21 +165,21 @@ const Home = () => {
             </div>
           </div> 
         </section>
-        <section className="section-team">
+        {/* <section className="section-team">
           <div className="ui-wrapper-small">
-            <div className="container">
+            <div className="container"> */}
               {/* Start Header Section */}
-              <div className="row justify-content-center text-center">
+              {/* <div className="row justify-content-center text-center">
                 <div className="col-md-8 col-lg-6">
                   <div className="header-section">
                     <h3 className="small-title">Our Core Values</h3>
                     <h2 className="title font-weight-light">Our Team</h2>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* / End Header Section */}
-              <div className="row">
-                {/* Start Single Person */}
+              {/* <div className="row">
+             
                 <div className="col-sm-6 col-lg-4 col-xl-3">
                   <div className="single-person">
                     <div className="person-image">
@@ -191,8 +191,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                {/* / End Single Person */}
-                {/* Start Single Person */}
+               
                 <div className="col-sm-6 col-lg-4 col-xl-3">
                   <div className="single-person">
                     <div className="person-image">
@@ -204,8 +203,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                {/* / End Single Person */}
-                {/* Start Single Person */}
+           
                 <div className="col-sm-6 col-lg-4 col-xl-3">
                   <div className="single-person">
                     <div className="person-image">
@@ -217,8 +215,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                {/* / End Single Person */}
-                {/* Start Single Person */}
+        
                 <div className="col-sm-6 col-lg-4 col-xl-3">
                   <div className="single-person">
                     <div className="person-image">
@@ -230,17 +227,16 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                {/* / End Single Person */}
-              </div>
-            </div>
+              </div> */}
+            {/* </div>
           </div>
-        </section>
+        </section> */}
         {/* section-5 */}
         <section className="p-5 border">
           <div className="ui-wrapper-large">
             <div className="container">
               <div className="text-center">
-                <h1 className="cs-aco-red mb-3 fs-50 font-weight-light">
+                <h1 className="cs-aco-red mb-3 fs-50 font-weight-medium">
                   Featured Offerings
                 </h1>
                 {/* <div class=" d-flex justify-content-center text-secondary my-3">
@@ -315,11 +311,11 @@ const Home = () => {
         </section>
         {/* section-6 */}
         <section className="container">
-          <div className="pt-5">
-            <h2 className="black">PARTNERS</h2>
+          <div className="p-5">
+            <h2 className="black fs-45">GREAT <span className="line--acoo fs-65">BRANDS</span> <br /> WE WORK WITH</h2>
           </div>
         </section>
-        <section className="p-3 bg-secondary">
+        <section className="p-3 bg-white">
           <div className="container">
             <div className="row text-center">
               <div className="col-md-3">
