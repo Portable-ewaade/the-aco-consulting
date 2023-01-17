@@ -9,7 +9,10 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col text-center">
-                <h3 className="white">a &amp; co consultant</h3>
+              <Link to="/" className="navbar-brand">
+            <img src="../../../assets/images/acoo.png" alt="" className="img-fluid" style={{width: '200px'}} />
+            {/* a & co consulting */}
+          </Link>
               </div>
               <div className="col-md">
                 <h6 className="white">New Business</h6>
