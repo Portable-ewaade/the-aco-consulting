@@ -19,6 +19,7 @@ build:
     # - source .${environment}.env
     # - echo REACT_APP_URL=$REACT_APP_URL >> .env
     # - cat .env
+    # i
     - npm run build
 
 # deploy-dev:
