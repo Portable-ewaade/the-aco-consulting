@@ -1,6 +1,6 @@
 stages:
   - build
-#   - deploy-dev
+  - deploy-dev
   - deploy-prod
 
 
@@ -22,18 +22,18 @@ build:
     # i
     - npm run build
 
-# deploy-dev:
-#   stage: deploy-dev
-#   image: python:3.8
-#   dependencies: 
-#     - build
-#   only:
-#     - staging
-#   before_script:
-#     - pip3 install awscli
-#     - source .dev.env
-#   script:
-#     - aws s3 sync build s3://${site_bucket_name}-dev/
+deploy-dev:
+  stage: deploy-dev
+  image: python:3.8
+  dependencies: 
+    - build
+  only:
+    - staging
+  before_script:
+    - pip3 install awscli
+    - source .dev.env
+  script:
+    - aws s3 sync build s3://${S3_BUCKET}
 
 
 deploy-prod:
@@ -47,6 +47,6 @@ deploy-prod:
     - pip3 install awscli
     # - source .prod.env
   script:
-    - aws s3 sync build s3://${S3_BUCKET} 
-    # - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
+    aws s3 sync build s3://${site_bucket_name} 
+    - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
 
