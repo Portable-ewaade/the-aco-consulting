@@ -31,9 +31,11 @@ deploy-dev:
     - staging
   before_script:
     - pip3 install awscli
-    - source .dev.env
+    # - source .dev.env
   script:
     - aws s3 sync build s3://${S3_BUCKET}
+    - aws cloudfront create-invalidation --distribution-id $CDN_VARIABLE --paths "/*"
+    
 
 
 deploy-prod:
