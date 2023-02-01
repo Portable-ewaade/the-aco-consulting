@@ -9,7 +9,7 @@ const Maintenance = () => {
                  <div className="col-lg-10 mx-auto text-center">
                
                      <div className="maintenance">
-                     <img src="../../../../assets/images/acoo.png" alt="" className="img-fluid" style={{width: '580px', height: '140px'}} />
+                     <img src="../../../../assets/images/acoo.png" alt="" className="img-fluid" style={{width: '580px'}} />
                 <div className="maintenance_contain">
                 <span className="pp-infobox-title-prefix fs-30 white">WE ARE COMING SOON</span>
                 <div className="pp-infobox-title-wrapper">
