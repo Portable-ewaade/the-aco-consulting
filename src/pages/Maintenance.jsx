@@ -9,15 +9,14 @@ const Maintenance = () => {
                  <div className="col-lg-10 mx-auto text-center">
                
                      <div className="maintenance">
-                     <img src="../../../../assets/images/acoo.png" alt="" className="img-fluid" style={{width: '200px'}} />
+                     <img src="../../../../assets/images/acoo.png" alt="" className="img-fluid" style={{width: '400px', height: '300px'}} />
                 <div className="maintenance_contain">
-                <img src="https://demo.wpbeaveraddons.com/wp-content/uploads/2018/02/main-vector.png" alt="maintenance" />
                 <span className="pp-infobox-title-prefix fs-30 white">WE ARE COMING SOON</span>
                 <div className="pp-infobox-title-wrapper">
                     <h3 className="pp-infobox-title white fs-50">The website under maintenance!</h3>
                 </div> 
                 <div className="pp-infobox-description white">
-                    <p>We are currenlty running some updates on our site <br />will resolve this issue soon!</p>			
+                    <p>We are working on updates. We will be back up shortly!</p>			
                 </div>    
                 {/* <span className="title-text pp-primary-title">We are social</span> */}
                 {/* <div className="pp-social-icons pp-social-icons-center pp-responsive-center">
