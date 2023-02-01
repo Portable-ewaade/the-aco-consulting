@@ -10,7 +10,7 @@ const Maintenance = () => {
                
                      <div className="maintenance">
                      <img src="../../../../assets/images/acoo.png" alt="" className="img-fluid" style={{width: '580px'}} />
-                <div className="maintenance_contain">
+                // <div className="maintenance_contain">
                 // <span className="pp-infobox-title-prefix fs-30 white">WE ARE COMING SOON</span>
                 // <div className="pp-infobox-title-wrapper">
                 //     <h3 className="pp-infobox-title white fs-50">The website under maintenance!</h3>
