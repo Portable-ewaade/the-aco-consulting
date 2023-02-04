@@ -1,10 +1,10 @@
 import React from 'react';
-// import Home from './pages/Home';
+import Home from './pages/Home';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
 import WhatWeDo from './pages/WhatWeDo';
 import Whoweare from './pages/WhoWeAre';
-import Maintenance from './pages/Maintenance';
+// import Maintenance from './pages/Maintenance';
 import {
   BrowserRouter,
   Routes,
