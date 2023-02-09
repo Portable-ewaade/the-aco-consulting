@@ -8,7 +8,7 @@ const Contact = () => {
     <>
     <Navbar />
        {/* contact us */}
-       <section className="home-hero  text-light pt-5 pb-5 mt-5 welcome " style={{backgroundImage: 'url("../../../../assets/images/what.png ")'}}>
+       <section className="home-hero  text-light pt-5 pb-5 welcome " style={{backgroundImage: 'url("../../../../assets/images/what.png ")'}}>
           <div className="ui-wrapper-xxlarge">
             <div className="container mt-5 pt-5 text-end justify-content-center">
               <div className="row">
