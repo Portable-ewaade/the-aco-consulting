@@ -757,6 +757,10 @@ a {
   border-bottom: #CC0039 solid 1px;
 }
 
+.navbar {
+	background-color:rgba(0,0,0,0.3) !important;
+}
+
 .active {
 	color: #CC0039  !important;
 	font-weight: 700 !important;

@@ -1,10 +1,10 @@
 import React from 'react';
-// import Home from './pages/Home';
+import Home from './pages/Home';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
 import WhatWeDo from './pages/WhatWeDo';
 import Whoweare from './pages/WhoWeAre';
-import Maintenance from './pages/Maintenance';
+// import Maintenance from './pages/Maintenance';
 import {
   BrowserRouter,
   Routes,
@@ -16,8 +16,8 @@ const App = () => {
     <BrowserRouter>
     <div>
       <Routes>
-        <Route path="/" element={<Maintenance />} />
-        {/* <Route path="/" element={<Home />} /> */}
+        {/* <Route path="/" element={<Maintenance />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/whatwedo" element={<WhatWeDo />} />
