@@ -7,18 +7,25 @@ a {
 
 /* buttons */
 .large-btn{
-	background-color: #a70e10;
-	padding: 1.5rem 3.5rem;
+	background-color: #CC0039;
+	padding: 0.5rem 2rem;
 	cursor: pointer;
-	border-radius: 10px;
+	border-top-right-radius: 26px;
 	color: #fff;
 	border: none !important
+}
+.btn2{
+	margin-left: 11rem;
 }
 
 /*Containers*/
 .ui-wrapper {
 	width: 100%;
 	padding: 1em 0;
+}
+.ui-wrapper-medium {
+	width: 100%;
+	padding: 2.5em 0;
 }
 .ui-wrapper-large {
 	width: 100%;
@@ -492,6 +499,13 @@ a {
 .bg-black{
     color: black !important;
 }
+.bg-grey{
+    color: #F5F5F5 !important;
+}
+.bg-grey2{
+	background-color: #212529;
+}
+
 
 
 /* Colors */
@@ -504,6 +518,13 @@ a {
 
 .cs-aco-red{
     color: #a70e10
+}
+.grey{
+	color: #212529 !important;
+}
+
+.grey2{
+	color: #6C757D;
 }
 
 .cs-aco-dred{
@@ -552,10 +573,17 @@ a {
 
 /* custom css */
 /* welcome */
+.hr{
+	width: 4rem;
+	border-color: #630000;
+	/* border-color:linear-gradient(to right(red),(blue)); */
+	/* background-color: linear-gradient(to right(red),(blue)); */
+}
 .home-hero {
-	background-position: center;
+	/* background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
+	background-color: #F5F5F5;
 }
 .method-item img{
     width: 100px;
@@ -573,10 +601,44 @@ a {
 
  .card-body {
 	background-color: #fff;
-	padding:2.3rem 1.2rem;
 	border-radius: 10px;
+	margin-right: 50rem;
  }
+.brand{
+	background-color: #F5F5F5;
+}
+/* footer */
+.social{
+	width: 12rem;
+}
+.social li a{
+	text-decoration: none;
+	color: #ffffff;
+	list-style: none;
+}
+li {
+	list-style-type: none;
+  }
+.vertical-line {
+	border-left: 0.3px solid black;
+	height: 160px;
+	border-color:#6C757D;
+	display: block;
+  }
+  .details{
+	width: 7rem;
+  }
+.horizontal-line{
+	border: 0.3px solid #6C757D;
+}
+.terms{
+	width: 15rem;
+}
 
+  
+
+
+  
  /* TEAM SECTION */
  .section-team {
 	font-family: "Poppins", sans-serif;
@@ -730,6 +792,16 @@ a {
 }
 
 /* who we are */
+.works{
+	text-align: start;
+}
+
+.text{
+	width: 25rem;
+	margin-top: 10rem;
+	margin-left: 5rem;
+
+}
 .quote{
 	position: absolute;
 	top: 25em;
@@ -737,6 +809,13 @@ a {
 	margin: auto;
 	padding: 2rem 3.5rem;
 	border-radius: 25px;
+}
+.img{
+	background-image: url("../../../assets/images/image.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
 }
 
 .line--aco{
@@ -751,6 +830,9 @@ a {
 
 
 /* navigation */
+.nav-item{
+	color: red !important;
+}
 .nav-link:hover {
   color: #CC0039;
   font-weight: 700 !important;
@@ -758,7 +840,7 @@ a {
 }
 
 .navbar {
-	background-color:rgba(0,0,0,0.3) !important;
+	background-color:#ffffff!important;
 }
 
 .active {
@@ -767,8 +849,15 @@ a {
 	border-bottom: #CC0039 solid 1px;
 }
 
+
+.owl-item.active {
+	color: none  !important;
+	font-weight: 700 !important;
+	border-bottom: none !important;
+}
 .nav-link {
-	text-transform: uppercase !important;
+	color: black;
+
 }
 
 .navbar-toggler {
@@ -785,7 +874,19 @@ a {
 	background-color: #fff !important;
 	position: fixed !important;
 }
+/* conversation */
+.conversation{
+	background-color: #F5F5F5;
+}
+.form-control{
+	background-color: #F5F5F5;
+}
+.text2{
+	width: 23rem;
+	margin-top: 7rem;
+	margin-left: 13rem;
 
+}
 .maintenance {
     /* background-image: url(https://demo.wpbeaveraddons.com/wp-content/uploads/2018/02/main-1.jpg); */
     background-repeat: no-repeat;
@@ -928,3 +1029,10 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+.underline-ash {
+	margin-top: -45px;
+	width: 250px;
+
+}
+
