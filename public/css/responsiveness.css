@@ -1,0 +1,25 @@
+/* moblie view */
+@media (max-width: 950px) {
+  .card-body{
+    margin-left:2rem;
+    width: 18rem; 
+    margin-top: 5rem;
+  }
+  .large-btn{
+     padding: 0.5rem;   
+     width: 8rem;
+  }
+  .build{
+    display: block;
+  }
+  .text{
+    margin-left: 0.5rem;
+    margin-top: 6rem;
+    width: 20rem;
+  }
+  .consult{
+    /* width: 1rem; */
+   padding: 0rem;
+  }
+  }
+  

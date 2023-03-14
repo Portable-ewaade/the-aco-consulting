@@ -1,28 +1,19 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import Team from './pages/Team';
-import Contact from './pages/Contact';
-import WhatWeDo from './pages/WhatWeDo';
-import Whoweare from './pages/WhoWeAre';
-// import Maintenance from './pages/Maintenance';
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+import { AboutUs } from './pages/AboutUs';
+import { Services } from './pages/Services';
+import { ContactUs } from './pages/ContactUs';
 
 const App = () => {
   return (
     <BrowserRouter>
     <div>
       <Routes>
-        {/* <Route path="/" element={<Maintenance />} /> */}
         <Route path="/" element={<Home />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/whatwedo" element={<WhatWeDo />} />
-        {/* <Route path="/Whoweare" element={<WhatWeDo />} /> */}
-        <Route path="/Whoweare" element={<Whoweare />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contactus" element={<ContactUs />} />
       </Routes>
     </div>
   </BrowserRouter>
