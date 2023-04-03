@@ -18,16 +18,16 @@ export const ContactUs = () => {
                     <p className='fs-16 grey mb-5 font-weight-light'>Our friendly team would love to hear from you</p>
                     
                     <div className="form-group fs-11 grey font-weight-medium">
-                      <label htmlFor="exampleInputEmail1">Full name</label>
+                      <label htmlFor="inputFullName">Full name</label>
                       <input type="text" className="form-control p-2 mb-3" id="firstname" />
                     </div>
                     
                     <div className="form-group fs-11 grey font-weight-medium">
-                      <label htmlFor="exampleInputPassword1">Email address</label>
-                      <input type="password" className="form-control p-2 mb-3 " id="email" />
+                      <label htmlFor="inputEmailAddress">Email address</label>
+                      <input type="email" className="form-control p-2 mb-3 " id="email" />
                     </div>
                     <div class="form-group mb-3 fs-11 grey font-weight-medium">
-                      <label for="exampleFormControlTextarea1">Leave a message</label>
+                      <label for="FormControlTextarea1">Leave a message</label>
                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                     </div>
                     <button className="large-btn btn-lg mt-2 fs-12 btn2 font-weight-light" type="button">Get in Touch <i class="bi bi-arrow-right"></i></button>
