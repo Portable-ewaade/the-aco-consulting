@@ -145,41 +145,41 @@ const Home = () => {
                 <div className="col-md-12">
                    <div className="row ">
                    <OwlCarousel className='owl-theme owl-controls active-o custom-nav owl-nav mrgt1' {...options}>
-                    <div class='item'>
+                    {/* <div class='item'>
                       <div className="col-sm-6 col-md-3 company">
                         <img src="../../../../assets/images/aws-3215369-2673787.webp" alt="" className="" />
                       </div>
-                    </div>
+                    </div> */}
                   
                     <div class='item'>
                     <div className=" col-sm-6 col-md-3 company">
-                        <img src="../../../../assets/images/logo.png " alt="" className="" />
+                        <img src="../../../../assets/images/ojanow.png " alt="oja-now" className="" style={{position:"relative", top: "5px"}} />
                       </div>
                     </div>
             
                 <div class='item'>
                 <div className=" col-sm-6 col-md-3 company">
-                    <img src="../../../../assets/images/artcolony.png" alt="" className="" />
+                    <img src="../../../../assets/images/artcolony.png" alt="artcolony" className="" style={{position:"relative", top: "5px"}}/>
                   </div>
                 </div>
                 <div class='item'>
                   <div className=" col-sm-6 col-md-3 company">
-                    <img src="../../../../assets/images/Layer_1.png" alt="" className="" />
+                    <img src="../../../../assets/images/path.png" alt="pathway" className="" style={{position:"relative", top: "5px"}}/>
+                  </div>
+                </div>
+                <div class='item'>
+                  <div className=" col-sm-6 col-md-3 company" >
+                    <img src="../../../../assets/images/google.png" alt="google" className="" />
                   </div>
                 </div>
                 <div class='item'>
                   <div className=" col-sm-6 col-md-3 company">
-                    <img src="../../../../assets/images/google.png" alt="" className="" />
+                    <img src="../../../../assets/images/zend.png" alt="zend" className="" style={{position:"relative", top: "13px"}}/>
                   </div>
                 </div>
                 <div class='item'>
                   <div className=" col-sm-6 col-md-3 company">
-                    <img src="../../../../assets/images/zend.jpg" alt="" className="" />
-                  </div>
-                </div>
-                <div class='item'>
-                  <div className=" col-sm-6 col-md-3 company">
-                    <img src="../../../../assets/images/paystack.jpg" alt="" className="" />
+                    <img src="../../../../assets/images/paystack.png" alt="paystack" className="" style={{position:"relative", top: "13px"}} />
                   </div>
                 </div>
                 <div class='item'>
