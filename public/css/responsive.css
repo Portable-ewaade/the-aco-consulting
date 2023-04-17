@@ -1,0 +1,365 @@
+
+  
+  @media screen and (max-width: 1500px) {
+  }
+  
+  
+  
+  @media screen and (max-width: 1199px) {
+  }
+  
+/* moblie view */
+@media (max-width: 950px) {
+  .card-body{
+    margin-left:2rem;
+    width: 100%; 
+    margin: auto;
+  }
+  .large-btn{
+     padding: 0.5rem;   
+     width: 8rem;
+  }
+  .build{
+    display: block;
+  }
+  .text{
+    margin-left: 0.5rem;
+    margin-top: 6rem;
+    width: 20rem;
+  }
+  .consult{
+    /* width: 1rem; */
+   padding: 0rem;
+  }
+  .aco-hero h1 {
+    font-size: 30px !important;
+  }
+  .services {
+    padding: 0 !important;
+  }
+  
+  .services {
+    width: 100% !important;
+  }
+  }
+  
+  @media screen and (max-width: 768px) {
+
+ .services {
+  padding: 0 !important;
+}
+
+.services {
+  width: 100% !important;
+}
+
+  }
+
+  @media  screen and (max-width: 576px){
+    .aco-hero h1 {
+      font-size: 30px !important;
+    }
+    .aco-hero p {
+      font-size: 14px !important;
+    }
+    .ui-wrapper-xlarge {
+      width: 100%;
+      padding: 4em 0;
+  }
+
+  .aco-wedo h1{
+    font-size: 25px !important;
+  }
+  .aco-wedo span{
+    font-size: 25px !important;
+  }
+  .aco-wedo-p p {
+    font-size: 14px !important;
+    text-align: left;
+  }
+
+  .aco-wedo-p  {
+    font-size: 14px !important;
+    text-align: left;
+  }
+
+   /* brands */
+   .aco-brands {
+    padding: 0 !important;
+  }
+  .aco-brands h2{
+    /* padding: 0 !important; */
+    font-size: 25px !important;
+  }
+
+  .aco-brands h2 span{
+    /* padding: 0 !important; */
+    font-size: 25px !important;
+  }
+  /* ready */
+  .large-btn {
+    padding: 0.8rem !important;
+    /* width: 14rem; */
+}
+.aco-ready h1 {
+  font-size: 20px !important;
+}
+
+.aco-weare {
+  padding: 0.5rem;
+ }
+  .aco-weare h2{
+    font-size: 25px !important;
+  }
+  .aco-weare h2 span{
+    font-size: 25px !important;
+  }
+  .aco-weare h1{
+    font-size: 25px !important;
+  }
+  .aco-weare h1 span{
+    font-size: 25px !important;
+  }
+  .aco-weare p{
+    font-size: 14px !important;
+    padding: 0.2rem !important;
+  }
+
+  .ui-wrapper-large {
+    width: 100%;
+    padding: 2em 0;
+}
+
+/* services */
+.aco-services {
+  margin: 0 !important;
+}
+.aco-service p{
+  width: 100% !important;
+}
+.service {
+  padding: 1.5rem !important;
+}
+.services {
+  padding: 0 !important;
+}
+
+.services {
+  width: 100% !important;
+}
+.service-type {
+  width: 100% !important;
+}
+.aco-service-type p {
+  font-size: 14px !important;
+}
+  }
+
+  @media screen and (max-width: 424px){
+    .aco-hero h1{
+      font-size: 30px !important;
+    }
+  .aco-hero p {
+    font-size: 14px !important;
+  }
+  .ui-wrapper-xlarge {
+    width: 100%;
+    padding: 4em 0;
+  }
+
+  .aco-wedo h1{
+    font-size: 25px !important;
+  }
+  .aco-wedo span{
+    font-size: 25px !important;
+  }
+  .aco-wedo-p p {
+    font-size: 14px !important;
+    text-align: left;
+  }
+
+  /* what we do */
+  .aco-wedo-p  {
+    font-size: 14px !important;
+    text-align: left;
+  }
+   /* brands */
+   .aco-brands {
+    padding: 0 !important;
+  }
+  .aco-brands h2{
+    /* padding: 0 !important; */
+    font-size: 25px !important;
+  }
+
+  .aco-brands h2 span{
+    /* padding: 0 !important; */
+    font-size: 25px !important;
+  }
+    /* ready */
+    .large-btn {
+      padding: 0.8rem !important;
+      /* width: 14rem; */
+  }
+  .aco-ready h1 {
+    font-size: 20px !important;
+  }
+
+  .aco-ready p {
+    font-size: 14px !important;
+  }
+  .aco-ready p {
+    font-size: 14px !important;
+  }
+  .aco-weare {
+    padding: 0.5rem;
+   }
+    .aco-weare h2{
+      font-size: 25px !important;
+    }
+    .aco-weare h2 span{
+      font-size: 25px !important;
+    }
+    .aco-weare h1{
+      font-size: 25px !important;
+    }
+    .aco-weare h1 span{
+      font-size: 25px !important;
+    }
+    .aco-weare p{
+      font-size: 14px !important;
+      padding: 0.2rem !important;
+    }
+    .ui-wrapper-large {
+      width: 100%;
+      padding: 2em 0;
+  }
+
+  /* services */
+.aco-services {
+  margin: 0 !important;
+}
+.aco-service p{
+  width: 100% !important;
+}
+.service {
+  padding: 1.5rem !important;
+}
+.services {
+  padding: 0 !important;
+}
+
+.services {
+  width: 100% !important;
+}
+.service-type {
+  width: 100% !important;
+}
+.aco-service-type p {
+  font-size: 14px !important;
+}
+} 
+
+  @media (max-width: 375px) {
+    .aco-hero h1{
+      font-size: 30px !important;
+    }
+    .aco-hero p {
+      font-size: 14px !important;
+    }
+    .ui-wrapper-xlarge {
+      width: 100%;
+      padding: 4em 0;
+  }
+
+  .aco-wedo h1{
+    font-size: 25px !important;
+  }
+  .aco-wedo span{
+    font-size: 25px !important;
+  }
+  .aco-wedo-p p {
+    font-size: 14px !important;
+    text-align: left;
+  }
+
+  /* what we do */
+  .aco-wedo-p  {
+    font-size: 14px !important;
+    text-align: left;
+  }
+  /* brands */
+  .aco-brands {
+    padding: 0 !important;
+    font-size: 25px !important;
+  }
+  .aco-brands h2{
+    /* padding: 0 !important; */
+    font-size: 25px !important;
+  }
+  .aco-brands h2 span{
+    /* padding: 0 !important; */
+    font-size: 25px !important;
+  }
+    /* ready */
+    .large-btn {
+      padding: 0.8rem !important;
+      /* width: 14rem; */
+  }
+
+  .aco-ready h1 {
+    font-size: 20px !important;
+  }
+  .aco-ready p {
+    font-size: 14px !important;
+  }
+ .aco-weare {
+  padding: 0.5rem;
+ }
+  .aco-weare h2{
+    font-size: 25px !important;
+  }
+  .aco-weare h2 span{
+    font-size: 25px !important;
+  }
+  .aco-weare h1{
+    font-size: 25px !important;
+  }
+  .aco-weare h1 span{
+    font-size: 25px !important;
+  }
+  .aco-weare p{
+    font-size: 14px !important;
+    padding: 0.2rem !important;
+  }
+  .ui-wrapper-large {
+    width: 100%;
+    padding: 2em 0;
+}
+
+/* services */
+.aco-services {
+  margin: 0 !important;
+}
+.aco-service p{
+  width: 100% !important;
+}
+.service {
+  padding: 1.5rem !important;
+}
+.services {
+  padding: 0 !important;
+}
+
+.services {
+  width: 100% !important;
+}
+.service-type {
+  width: 100% !important;
+}
+.aco-service-type p {
+  font-size: 14px !important;
+}
+}
+  
+  

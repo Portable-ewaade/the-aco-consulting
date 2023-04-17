@@ -42,14 +42,14 @@ export const Services = () => {
      
        <section className="home-hero  text-light pt-5 welcome">
           <div className="ui-wrapper-xlarge">
-            <div className="container pt-2 text-start">
-              <div className="row mx-5">
-                <div classname="col-lg-6 col-md-8">
+            <div className="container pt-2 text-start aco-services">
+              <div className="row mx-5 aco-services">
+                <div className="col-lg-6 col-md-8 aco-service aco-hero">
                   
                   <h1 className="fs-60 grey font-weight-bold">
                   Lorem Ipsum Lorem <br /> Lorem Ipsum
                   </h1>
-                  <p className='grey fs-16 w-50 grey2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,ut nam laboriosam distinctio ipsa saepe possimus provident esse nesciunt facere </p>
+                  <p className='grey fs-16 w-50 grey2 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,ut nam laboriosam distinctio ipsa saepe possimus provident esse nesciunt facere </p>
                  
                 </div>
               </div>
@@ -61,98 +61,94 @@ export const Services = () => {
           <div className="ui-wrapper-large">
             <div className="container">
             <div className="row works">
-                  <div className=" d-lg-flex justify-content-between p-5">
-                  <div className='px-5'>
+                  <div className=" d-lg-flex justify-content-between p-5  service">
+                  <div className='px-5 services'>
                       <p className='fs-16'>01</p>
-                      <h4 className='fs-20 font-weight-bold'>Cloud <br /> Governance</h4>
-                      <p className=' grey2 fs-14 w-75'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
-                    </div>
-                    <div className='w-25'>
-                     <div className="d-lg-flex justify-content-between">
-                      <p className='fs-16'> Lorem Ipsum</p>
-                      <p className='fs-16'> Lorem Ipsum</p>
-                     </div>
-                      <hr  className=' grey2'/>
-                      <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16' > Lorem Ipsum</p>
-                      <p  className='fs-16'> Lorem Ipsum</p>
-                     </div>
-                      <hr className='grey2'/>
-                      <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16'> Lorem Ipsum</p>
-                      
-                     </div>
-                     <hr className='grey2'/>
-                     <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16'> Lorem Ipsum</p>
-                     
-                     </div>
-                      
+                      <h4 className='fs-20 font-weight-bold'>Software <br /> Development</h4>
+                        <p className=' grey2 fs-14 w-75 services'>LOur team of engineers build high-performing, 
+                          user friendly, and secure custom applications
+                          that provide superior customer experience and 
+                          ensure faster growth.</p>
+                        </div>
+                        <div className='w-25 services'>
+                        <div className="d-lg-flex justify-content-between aco-service-type">
+                          <p className='fs-16'> Custom Development Services</p>
+                        </div>
+                          <hr  className='grey2'/>
+                          <div className="d-lg-flex justify-content-between aco-service-type">
+                          <p  className='fs-16'> Application  Redesign and Modernization</p>
+                        </div>
+                          <hr className='grey2'/>
+                          <div className="d-lg-flex justify-content-between aco-service-type">
+                          <p  className='fs-16'>Web and Application Integration Services</p>
+                          
+                        </div>
+                        <hr className='grey2'/>
+                        <div className="d-lg-flex justify-content-between aco-service-type">
+                          <p  className='fs-16'> Technology Consultation</p>
+                        
+                        </div>
+                          
 
-                    </div>
-                  </div>
+                        </div>
+                      </div>
                  
-                  <div className="d-lg-flex justify-content-between p-5">
-                  <div className='px-5'>
+                  <div className="d-lg-flex justify-content-between p-5 service">
+                  <div className='px-5 services'>
                       <p className='fs-16'>02</p>
-                      <h4 className='fs-20 font-weight-bold'>Software <br /> Devlopemnt</h4>
-                      <p  className='fs-14 w-75 grey2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
+                      <h4 className='fs-20 font-weight-bold'>Product<br/> Design and <br/> Branding</h4>
+                      <p  className='fs-14 w-75 grey2 services'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
                     </div>
-                    <div className='w-25 '>
-                     <div className="d-lg-flex justify-content-between">
-                      <p className='fs-16'> Lorem Ipsum</p>
-                      <p className='fs-16'> Lorem Ipsum</p>
+                    <div className='w-25 services'>
+                     <div className="d-lg-flex justify-content-between aco-service-type">
+                      <p className='fs-16'> Web and Mobile App Design</p>
                      </div>
                       <hr  className=' grey2'/>
-                      <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16' > Lorem Ipsum</p>
-                      <p  className='fs-16'> Lorem Ipsum</p>
+                      <div className="d-lg-flex justify-content-between aco-service-type">
+                      <p  className='fs-16' >Custom Digital Product Design</p>
                      </div>
                       <hr className='grey2'/>
-                      <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16'> Lorem Ipsum</p>
-                      
+                      <div className="d-lg-flex justify-content-between aco-service-type">
+                      <p  className='fs-16'>Redesign and Modernization Services</p>
                      </div>
                      <hr className='grey2'/>
-                     <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16'> Lorem Ipsum</p>
+                     <div className="d-lg-flex justify-content-between aco-service-type">
+                      <p  className='fs-16'>Corporate Branding and Logo Design</p>
                      
                      </div>
-                      
 
                     </div>
                   </div>
                  
                 </div>
                
-                <div className="d-lg-flex justify-content-between p-5">
-                  <div className='px-5'>
+                <div className="d-lg-flex justify-content-between p-5 service">
+                  <div className='px-5 services'>
                       <p className='fs-16'>03</p>
-                      <h4 className='fs-20 font-weight-bold'>Retailed <br /> and Commerce</h4>
-                      <p  className='fs-14 w-75 grey2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
+                      <h4 className='fs-20 font-weight-bold'>Dedicated <br /> Team Building</h4>
+                      <p  className='fs-14 w-75 grey2'>Expand your development capabilities
+                          and augment your teams competence 
+                          with a dedicated development team 
+                          and subject matter experts.</p>
                     </div>
                     
-                    <div className='w-25 '>
-                     <div className="d-lg-flex justify-content-between">
-                      <p className='fs-16'> Lorem Ipsum</p>
-                      <p className='fs-16'> Lorem Ipsum</p>
+                    <div className='w-25 services'>
+                     <div className="d-lg-flex justify-content-between aco-service-type">
+                      <p className='fs-16'> Full Stack Developers</p>
                      </div>
                       <hr  className=' grey2'/>
-                      <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16' > Lorem Ipsum</p>
-                      <p  className='fs-16'> Lorem Ipsum</p>
+                      <div className="d-lg-flex justify-content-between aco-service-type">
+                      <p  className='fs-16' >Dev Ops and Infrastructure Engineers</p>
                      </div>
                       <hr className='grey2'/>
-                      <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16'> Lorem Ipsum</p>
-                      
+                      <div className="d-lg-flex justify-content-between aco-service-type">
+                      <p  className='fs-16'>IT Support Engineers</p>
                      </div>
                      <hr className='grey2'/>
-                     <div className="d-lg-flex justify-content-between">
-                      <p  className='fs-16'> Lorem Ipsum</p>
+                     <div className="d-lg-flex justify-content-between aco-service-type">
+                      <p  className='fs-16'>Data Engineers and Cybersecurity Specialists</p>
                      
                      </div>
-                      
 
                     </div>
                   </div>
@@ -163,8 +159,8 @@ export const Services = () => {
         <section className="p-3 bg-grey brand">
           <div className="container">
           <div className="ui-wrapper-large">
-          <div className="">
-           <div>
+          <div className="aco-weare">
+           <div className='aco-weare'>
            <h2 className="grey2 fs-45 font-weight-bold mb-3">Our <span className="line--acoo fs-45 mb-3 font-weight-bold">Processes</span></h2>
             <img src="../../../../assets/images/rough.png" alt="ee" className="underline-ash" />
            </div>
