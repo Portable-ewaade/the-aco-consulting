@@ -65,6 +65,9 @@ useEffect(() => {
   AOS.init();
   AOS.refresh();
 
+
+
+
 }, [])
 
 const sliderOpts = {
