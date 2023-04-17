@@ -15,7 +15,7 @@ export const Footer = () => {
             <img src="../../../assets/images/acoo.png" alt="" className="img-fluid" style={{width: '200px'}} />
             a & co consulting
                 </Link>
-          <p className='grey2 fs-13 pt-3 w-75'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,ut nam laboriosam distinctio ipsa saepe possimus provident esse nesciunt facere repellat perferendis est, quaerat tempore.</p>
+          <p className='grey2 fs-13 pt-3 w-75'>A & co consulting is an innovation driven consultancy that harnesses the power of technology to provide sustainable and profitable solutions to clients world wide across various industries. We help organizations strategize, design, develop, implement and manage technological systems that drive revenue increase and growth to achieve goals.</p>
 
           <div className="d-flex white fs-11 social justify-content-between font-weight-xlight mt-4">
             <li> <a href="/">Facebook</a></li>
