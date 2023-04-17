@@ -4,7 +4,8 @@ import Navbar from '../components/Navbar'
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import AOS from 'aos';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 
@@ -46,14 +47,14 @@ AOS.init({
   animatedClassName: 'aos-animate', // class applied on animation
   useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
   disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  debounceDelay: 20, // the delay on debounce used while resizing window (advanced)
   throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
   
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 1500, // values from 0 to 3000, with step 50ms
+  duration: 2000, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
   once: true, // whether animation should happen only once - while scrolling down
   mirror: true, // whether elements should animate out while scrolling past them
@@ -64,10 +65,6 @@ AOS.init({
 useEffect(() => {
   AOS.init();
   AOS.refresh();
-
-
-
-
 }, [])
 
 const sliderOpts = {
@@ -107,9 +104,9 @@ const sliderOpts = {
        {/* section-1 */}
        <section className="home-hero  text-light pt-5 welcome">
           <div className="ui-wrapper-xlarge">
-            <div className="container pt-2 text-start justify-content-center">
+            <div className="container pt-2 text-start justify-content-center " data-aos={"fade-up"}>
               <div className="row">
-                <div className="col-lg-6 col-md-8">
+                <div className="col-lg-6 col-md-8 ">
                          
                    <OwlCarousel className='owl-theme owl-controls custom-nav owl-nav mrgt1' {...sliderOpts} >
                                     
@@ -155,19 +152,19 @@ const sliderOpts = {
           <div className="ui-wrapper-large">
             <div className="container">
               <div className="text-center">
-                <div className="aco-wedo" data-aos={"fade-right"}>
+                <div className="aco-wedo" data-aos={"fade-up"}>
                 <h1 className="aco-wedo cs-aco-red mb-3 fs-50 font-weight-bold">
                   <span className='black'>What </span> We Do
                 </h1>
                 <img src="../../../../assets/images/rough.png" alt="ee" className="underline-ash" />
                 </div>
                 <div className="row">
-                   <div className="col-lg-7 col-md-12 mx-auto aco-wedo-p">
+                   <div className="col-lg-7 col-md-12 mx-auto aco-wedo-p" data-aos={"fade-down"}>
                    <p className='fs-16'>A & co consulting is an innovation driven consultancy that harnesses the power of technology to provide sustainable and profitable solutions to clients world wide across various industries. We help organizations strategize, design, develop, implement and manage technological systems that drive revenue increase and growth to achieve goals.</p>
                    </div>
                 </div>
                 <div className="row works">
-                  <div className="col-md my-3">
+                  <div className="col-md my-3" data-aos={"fade-right"}>
                     <div className="aco-wedoo pt-2">
                       <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
                      <h6>Software Development</h6>
@@ -176,7 +173,7 @@ const sliderOpts = {
                         with the latest tools and technologies.</p>
                     </div>
                   </div>
-                  <div className="col-md my-3">
+                  <div className="col-md my-3" data-aos={"fade-up"}>
                     <div className=" pt-2">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
                     <h6>Cloud Migration</h6>
@@ -186,7 +183,7 @@ const sliderOpts = {
                         </p>
                     </div>
                   </div>
-                  <div className="col-md my-3">
+                  <div className="col-md my-3" data-aos={"fade-left"}>
                     <div className=" pt-2">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
                     <h6>Product Design and Branding</h6>
@@ -198,7 +195,7 @@ const sliderOpts = {
                  
                 </div>
                 <div className="row mt-3 works">
-                  <div className="col-md my-3">
+                  <div className="col-md my-3" data-aos={"fade-right"}>
                     <div className=" pt-2">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
                     <h6>Strategy and Business Development</h6>
@@ -207,7 +204,7 @@ const sliderOpts = {
                         stay ahead of the competition.</p>
                     </div>
                   </div>
-                  <div className="col-md my-3">
+                  <div className="col-md my-3" data-aos={"fade-up"}>
                     <div className=" pt-2">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
                     <h6>Data Analytics</h6>
@@ -217,7 +214,7 @@ const sliderOpts = {
                       </p>
                     </div>
                   </div>
-                  <div className="col-md my-3">
+                  <div className="col-md my-3" data-aos={"fade-left"}>
                     <div className=" pt-2 ">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
                     <h6>Dedicated Team Building</h6>
@@ -239,7 +236,7 @@ const sliderOpts = {
           <div className=" aco-brands p-5 " data-aos={"fade-right"}>
             <h2 className="black fs-45">GREAT <span className="line--acoo fs-65">BRANDS</span> <br /> WE WORK WITH</h2>
           </div>
-              <div className='row'>
+              <div className='row' data-aos={"fade-up"}>
                 <div className="col-md-12">
                    <div className="row ">
                    <OwlCarousel className='owl-theme owl-controls active-o custom-nav owl-nav mrgt1' {...options}>
@@ -294,7 +291,7 @@ const sliderOpts = {
         </section>
 
         <section className="p-5">
-          <div className="ui-wrapper-small ">
+          <div className="ui-wrapper-small" data-aos={"zoom-in"}>
             <div className="container">
               <div className="row">
                 <div className="col-lg-6 text-center mx-auto">

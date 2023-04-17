@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Services = () => {
   const options = {
@@ -34,6 +35,32 @@ export const Services = () => {
     },
     },
 } 
+AOS.init({
+  disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 20, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 2000, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: true, // whether animation should happen only once - while scrolling down
+  mirror: true, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+
+useEffect(() => {
+  AOS.init();
+  AOS.refresh();
+}, [])
 
   return (
     
@@ -61,8 +88,8 @@ export const Services = () => {
           <div className="ui-wrapper-large">
             <div className="container">
             <div className="row works">
-                  <div className=" d-lg-flex justify-content-between p-5  service">
-                  <div className='px-5 services'>
+                  <div className=" d-lg-flex justify-content-between p-5  service" >
+                  <div className='px-5 services' data-aos={"fade-left"}>
                       <p className='fs-16'>01</p>
                       <h4 className='fs-20 font-weight-bold'>Software <br /> Development</h4>
                         <p className=' grey2 fs-14 w-75 services'>LOur team of engineers build high-performing, 
@@ -70,7 +97,7 @@ export const Services = () => {
                           that provide superior customer experience and 
                           ensure faster growth.</p>
                         </div>
-                        <div className='w-25 services'>
+                        <div className='w-25 services' data-aos={"fade-right"}>
                         <div className="d-lg-flex justify-content-between aco-service-type">
                           <p className='fs-16'> Custom Development Services</p>
                         </div>
@@ -94,12 +121,12 @@ export const Services = () => {
                       </div>
                  
                   <div className="d-lg-flex justify-content-between p-5 service">
-                  <div className='px-5 services'>
+                  <div className='px-5 services' data-aos={"fade-left"}>
                       <p className='fs-16'>02</p>
-                      <h4 className='fs-20 font-weight-bold'>Product<br/> Design and <br/> Branding</h4>
+                      <h4 className='fs-20 font-weight-bold'>Product<br/> Design and Branding</h4>
                       <p  className='fs-14 w-75 grey2 services'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
                     </div>
-                    <div className='w-25 services'>
+                    <div className='w-25 services' data-aos={"fade-right"}>
                      <div className="d-lg-flex justify-content-between aco-service-type">
                       <p className='fs-16'> Web and Mobile App Design</p>
                      </div>
@@ -123,7 +150,7 @@ export const Services = () => {
                 </div>
                
                 <div className="d-lg-flex justify-content-between p-5 service">
-                  <div className='px-5 services'>
+                  <div className='px-5 services' data-aos={"fade-left"}>
                       <p className='fs-16'>03</p>
                       <h4 className='fs-20 font-weight-bold'>Dedicated <br /> Team Building</h4>
                       <p  className='fs-14 w-75 grey2'>Expand your development capabilities
@@ -132,7 +159,7 @@ export const Services = () => {
                           and subject matter experts.</p>
                     </div>
                     
-                    <div className='w-25 services'>
+                    <div className='w-25 services' data-aos={"fade-right"}>
                      <div className="d-lg-flex justify-content-between aco-service-type">
                       <p className='fs-16'> Full Stack Developers</p>
                      </div>
@@ -159,7 +186,7 @@ export const Services = () => {
         <section className="p-3 bg-grey brand">
           <div className="container">
           <div className="ui-wrapper-large">
-          <div className="aco-weare">
+          <div className="aco-weare" data-aos={"zoom-out"}>
            <div className='aco-weare'>
            <h2 className="grey2 fs-45 font-weight-bold mb-3">Our <span className="line--acoo fs-45 mb-3 font-weight-bold">Processes</span></h2>
             <img src="../../../../assets/images/rough.png" alt="ee" className="underline-ash" />
@@ -184,7 +211,7 @@ export const Services = () => {
                 <p className='grey2 text-start fs-16 px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
               </div>
             </div> */}
-            <div className="row ">
+            <div className="row" data-aos={"zoom-out"}>
               <OwlCarousel className='owl-theme owl-controls active-o custom-nav owl-nav mrgt1' {...options}>
                 <div class='item'>
                   <div className="col-md-12">
