@@ -1,5 +1,6 @@
 stages:
   - build
+  - deploy-dev
   - deploy-prod
 
 
@@ -18,7 +19,23 @@ build:
     # - source .${environment}.env
     # - echo REACT_APP_URL=$REACT_APP_URL >> .env
     # - cat .env
+    # i
     - npm run build
+
+# deploy-dev:
+#   stage: deploy-dev
+#   image: python:3.8
+#   dependencies: 
+#     - build
+#   only:
+#     - staging
+#   before_script:
+#     - pip3 install awscli
+#     # - source .dev.env
+#   script:
+#     - aws s3 sync build s3://${S3_BUCKET}
+#     - aws cloudfront create-invalidation --distribution-id $CDN_VARIABLE --paths "/*"
+
 
 
 deploy-prod:
@@ -30,8 +47,10 @@ deploy-prod:
     - main
   before_script:
     - pip3 install awscli
-    # - source .env
+    # - source .prod.env
   script:
     - aws s3 sync build s3://${site_bucket_name} 
-    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
+    - aws s3 sync s3://${site_bucket_name} s3://${S3_BUCKET}/ 
+    - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
+    - aws cloudfront create-invalidation --distribution-id $CDN_VARIABLE --paths "/*"
 
