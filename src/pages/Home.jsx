@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import Footer from '../components/Footer'
+import {Link} from "react-router-dom"
 import Navbar from '../components/Navbar'
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -253,7 +254,7 @@ useEffect(() => {
                       Ready To Level Up?
                     </h1>
                     <p className='grey fs-15'>Looking to bring your ideas to life? Contact us for more information.</p>
-                    <button className="large-btn btn-lg mt-2 fs-14 py-3 px-5 font-weight-light csbg-aco-red" type="button">Get in Touch <i className="bi bi-arrow-right"></i></button>
+                    <Link to="/contactus" className="large-btn btn-lg mt-2 fs-14 py-3 px-5 font-weight-light csbg-aco-red" type="button">Get in Touch <i className="bi bi-arrow-right"></i></Link>
                   </div>
                   <div>
                   
