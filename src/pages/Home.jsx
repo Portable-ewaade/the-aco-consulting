@@ -67,34 +67,7 @@ useEffect(() => {
   AOS.refresh();
 }, [])
 
-const sliderOpts = {
-  margin: 20,
-  nav: false,
-  dots: false,
-  rewind: true,
-  setTimeout: 3,
-  autoplay: true,
-  animateIn: 'fadeIn',
-  animateOut: 'fadeOut',
-  responsive: {
-      0: {
-          items: 1,
-      },
-      400: {
-          items: 1,
-      },
-      600: {
-          items: 1,
-      },
-      700: {
-          items: 1,
-      },
-      1000: {
-          items: 1,
 
-      }
-  },
-};
 
 
   return (
@@ -106,37 +79,17 @@ const sliderOpts = {
           <div className="ui-wrapper-xlarge">
             <div className="container pt-2 text-start justify-content-center " data-aos={"fade-up"}>
               <div className="row">
-                <div className="col-lg-6 col-md-8 ">
+                <div className="col-lg-8 col-md-8 ">
                          
-                   <OwlCarousel className='owl-theme owl-controls custom-nav owl-nav mrgt1' {...sliderOpts} >
-                                    
-                      <div className="item">
-                            <div className="aco-hero">
+                <div className="aco-hero">
                           
-                          <h1 className="fs-60 grey font-weight-bold">
-                          Think, Transform and Build 
+                          <h1 className="fs-55 grey font-weight-bold">
+                          Think, Transform  and Build <br /> Innovate and Grow. 
                          
                           </h1>
-                          <p className='grey fs-16 font-weight-light'>Looking to innovate and transform your business, A & Co Consulting can help you design, develop and deliver your dreams. </p>
+                          <p className='grey fs-16 font-weight-light'>Looking to innovate and transform your business, <br /> A & Co Consulting can help you design, develop and deliver your dreams. </p>
                     
                       </div>
-                      </div>
-
-                      <div className="item">
-                              <div className="aco-hero">
-                            
-                            <h1 className="fs-60 cs-aco-red font-weight-bold">
-                            Innovate and Grow. 
-                            </h1>
-                            <p className='grey fs-16 font-weight-light '>Looking to innovate and transform your business, A & Co Consulting can help you design, develop and deliver your dreams. </p>
-               
-                          </div>
-                      </div>
-                    
-
-                    </OwlCarousel>
-  
-               
               
                   {/* <img src="../../../../assets/images/indicator.png" alt="ee" className="-ash"  */}
              
@@ -234,7 +187,7 @@ const sliderOpts = {
         <section className="p-3 bg-grey brand">
           <div className="container">
           <div className=" aco-brands p-5 " data-aos={"fade-right"}>
-            <h2 className="black fs-45">GREAT <span className="line--acoo fs-65">BRANDS</span> <br /> WE WORK WITH</h2>
+            <h2 className="black fs-45">GREAT <span className="font-weight-medium cs-aco-red fs-65">BRANDS</span> <br /> WE WORK WITH</h2>
           </div>
               <div className='row' data-aos={"fade-up"}>
                 <div className="col-md-12">
@@ -246,38 +199,38 @@ const sliderOpts = {
                       </div>
                     </div> */}
                   
-                    <div class='item'>
+                    <div className='item'>
                     <div className=" col-sm-6 col-md-3 company">
                         <img src="../../../../assets/images/ojanow.png " alt="oja-now" className="" style={{position:"relative", top: "5px"}} />
                       </div>
                     </div>
             
-                <div class='item'>
+                <div className='item'>
                 <div className=" col-sm-6 col-md-3 company">
                     <img src="../../../../assets/images/artcolony.png" alt="artcolony" className="" style={{position:"relative", top: "5px"}}/>
                   </div>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <div className=" col-sm-6 col-md-3 company">
                     <img src="../../../../assets/images/path.png" alt="pathway" className="" style={{position:"relative", top: "5px"}}/>
                   </div>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <div className=" col-sm-6 col-md-3 company" >
                     <img src="../../../../assets/images/google.png" alt="google" className="" />
                   </div>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <div className=" col-sm-6 col-md-3 company">
                     <img src="../../../../assets/images/zend.png" alt="zend" className="" style={{position:"relative", top: "13px"}}/>
                   </div>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <div className=" col-sm-6 col-md-3 company">
                     <img src="../../../../assets/images/paystack.png" alt="paystack" className="" style={{position:"relative", top: "13px"}} />
                   </div>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <div className=" col-sm-6 col-md-3 company">
                     <img src="../../../../assets/images/amp.webp" alt="" className="" />
                   </div>
@@ -300,7 +253,7 @@ const sliderOpts = {
                       Ready To Level Up?
                     </h1>
                     <p className='grey fs-15'>Looking to bring your ideas to life? Contact us for more information.</p>
-                    <button className="large-btn btn-lg mt-2 fs-14 py-3 px-5 font-weight-light" type="button">Get in Touch <i class="bi bi-arrow-right"></i></button>
+                    <button className="large-btn btn-lg mt-2 fs-14 py-3 px-5 font-weight-light csbg-aco-red" type="button">Get in Touch <i className="bi bi-arrow-right"></i></button>
                   </div>
                   <div>
                   

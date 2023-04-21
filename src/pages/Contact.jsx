@@ -69,9 +69,9 @@ const Contact = () => {
                       <label htmlFor="exampleInputPassword1">Email</label>
                       <input type="password" className="form-control p-2 mb-3" id="email" />
                     </div>
-                    <div class="form-group mb-3">
+                    <div className="form-group mb-3">
                       <label for="exampleFormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                      <textarea className="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                     </div>
                     <Link className="btn white csbg-aco-red btn-lg p-2 w-100">SEND A MESSAGE</Link>
                   </form>

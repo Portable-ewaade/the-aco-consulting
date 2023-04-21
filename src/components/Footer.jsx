@@ -26,7 +26,7 @@ export const Footer = () => {
                 </div>
 
           <div>
-              <div class="vertical-line grey2 d-flex ">
+              <div className="vertical-line grey2 d-flex ">
               <div className='details'>
               <li className="m-4">
                 <Link to="/aboutus" className="
