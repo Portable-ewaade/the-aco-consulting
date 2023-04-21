@@ -38,8 +38,8 @@ export const Services = () => {
 AOS.init({
   disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
   startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-  initClassName: 'aos-init', // class applied after initialization
-  animatedClassName: 'aos-animate', // class applied on animation
+  initClassName: 'aos-init', // className applied after initialization
+  animatedClassName: 'aos-animate', // className applied on animation
   useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
   disableMutationObserver: false, // disables automatic mutations' detections (advanced)
   debounceDelay: 20, // the delay on debounce used while resizing window (advanced)
@@ -71,12 +71,13 @@ useEffect(() => {
           <div className="ui-wrapper-xlarge">
             <div className="container pt-2 text-start aco-services">
               <div className="row mx-5 aco-services">
-                <div className="col-lg-6 col-md-8 aco-service aco-hero">
-                  
+                <div className="col-lg-12 col-md-8 aco-service aco-hero">
+                <img src="../../../../assets/images/highlight.png" alt=""  style={{ height: 50, position: "relative", left: "-20px", top: "15px"}}/>
                   <h1 className="fs-60 grey font-weight-bold">
-                  Lorem Ipsum Lorem <br /> Lorem Ipsum
+                  Smart Solutions
+                    <br /> <span className='grey2 fs-60'>for complex challenges</span> 
                   </h1>
-                  <p className='grey fs-16 w-50 grey2 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,ut nam laboriosam distinctio ipsa saepe possimus provident esse nesciunt facere </p>
+                  <p className='grey fs-16 w-50 grey2 '>We understand that modern technology challenges are multi-dimensional and require a holistic approach.At A&Co, we bring a unique blend of industry expertise, technical skills, and business acumen to help you solve your most complex challenges and identify new opportunities for growth.</p>
                  
                 </div>
               </div>
@@ -92,7 +93,7 @@ useEffect(() => {
                   <div className='px-5 services' data-aos={"fade-left"}>
                       <p className='fs-16'>01</p>
                       <h4 className='fs-20 font-weight-bold'>Software <br /> Development</h4>
-                        <p className=' grey2 fs-14 w-75 services'>LOur team of engineers build high-performing, 
+                        <p className=' grey2 fs-14 w-75 services'>Our team of engineers build high-performing, 
                           user friendly, and secure custom applications
                           that provide superior customer experience and 
                           ensure faster growth.</p>
@@ -213,50 +214,51 @@ useEffect(() => {
             </div> */}
             <div className="row" data-aos={"zoom-out"}>
               <OwlCarousel className='owl-theme owl-controls active-o custom-nav owl-nav mrgt1' {...options}>
-                <div class='item'>
+                <div className='item'>
                   <div className="col-md-12">
                     <p className="font-weight-bold grey2 fs-55 ">01</p>
-                    <p className='font-weight-bold black px-5 '>Expertise</p>
-                    <p className='grey2 font-weight-light text-start fs-13 px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
+                    <p className='font-weight-bold black px-5 '>Analysis <br /> & Assessment</p>
+                    <p className='grey2 font-weight-light text-start fs-13 px-5'>We attentively listen to understand your business goals and identify the best technology solutions for your needs.</p>
                   </div>
                 </div>
                   
-                <div class='item'>
+                <div className='item'>
                   <div className="col-md-12">
                     <p className="font-weight-bold grey2 fs-55 ">02</p>
-                    <p className='font-weight-bold black px-5 '>Expertise</p>
-                    <p className='grey2 font-weight-light  text-start fs-13 px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
+                    <p className='font-weight-bold black px-5 '>Project <br /> Planning</p>
+                    <p className='grey2 font-weight-light  text-start fs-13 px-5'>In this crucial phase, we consolidate all features and requirements, establish priorities and set timelines.</p>
                   </div>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <div className="col-md-12">
                     <p className="font-weight-bold grey2 fs-55 ">03</p>
-                    <p className='font-weight-bold black px-5 '>Expertise</p>
+                    <p className='font-weight-bold black px-5 '>Design & <br /> Visualization</p>
                     <p className='grey2 font-weight-light  text-start fs-13 px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
                   </div>
                 </div>
                 
-                <div class='item'>
+                <div className='item'>
                   <div className="col-md-12">
                     <p className="font-weight-bold grey2 fs-55 ">04</p>
-                    <p className='font-weight-bold black px-5 '>Expertise</p>
-                    <p className='grey2 font-weight-light text-start fs-13 px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
+                    <p className='font-weight-bold black px-5 '>Development <br /> & Implementation</p>
+                    <p className='grey2 font-weight-light text-start fs-13 px-5'>At this stage, we bring your vision to life using the specified  technology stack and UI/UX designs</p>
                   </div>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <div className="col-md-12">
                     <p className="font-weight-bold grey2 fs-55 ">05</p>
-                    <p className='font-weight-bold black px-5 '>Expertise</p>
-                    <p className='grey2 font-weight-light  text-start fs-13 px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
+                    <p className='font-weight-bold black px-5 '>Quality Assurance <br /> & Testing</p>
+                    <p className='grey2 font-weight-light  text-start fs-13 px-5'>Our team of experts  ensures that your solution is secure and reliable through rigorous manual and automated testing to prevent bugs.</p>
                   </div>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <div className="col-md-12">
                     <p className="font-weight-bold grey2 fs-55 ">06</p>
-                    <p className='font-weight-bold black px-5 '>Expertise</p>
-                    <p className='grey2 font-weight-light  text-start fs-13 px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
+                    <p className='font-weight-bold black px-5 '>Launch <br /> & Support</p>
+                    <p className='grey2 font-weight-light  text-start fs-13 px-5'>We not only bring your vision to life but are eager to ensure its growth and continuous evolution.</p>
                   </div>
                 </div>
+              
               </OwlCarousel>
             </div>
           </div>

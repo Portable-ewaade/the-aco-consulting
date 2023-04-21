@@ -524,7 +524,7 @@ a {
 }
 
 .grey2{
-	color: #6C757D;
+	color: #6C757D !important;
 }
 
 .cs-aco-dred{
@@ -602,7 +602,7 @@ a {
  .card-body {
 	background-color: #fff;
 	border-radius: 10px;
-	margin-right: 50rem;
+	/* margin-right: 50rem; */
  }
 .brand{
 	background-color: #F5F5F5;
@@ -883,9 +883,8 @@ li {
 }
 .text2{
 	width: 23rem;
-	margin-top: 7rem;
+	/* margin-top: 7rem; */
 	margin-left: 13rem;
-
 }
 .maintenance {
     /* background-image: url(https://demo.wpbeaveraddons.com/wp-content/uploads/2018/02/main-1.jpg); */
@@ -1040,3 +1039,30 @@ li {
 	width: 120px !important;
 }
 
+.txt2{
+	width: 23rem;
+	margin-top: 7rem;
+	margin-left: 13rem;
+}
+
+
+/* form */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    color: var(--bs-body-color);
+    background-color: none !important;
+    background-clip: padding-box;
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color) !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
