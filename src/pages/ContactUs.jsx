@@ -127,34 +127,34 @@ useEffect(() => {
                   <div className="card-body text2 px-5 py-5">
                     <div>
                       <p className='fs-16'>01</p>
-                      <h4 className='fs-15 font-weight-bold'>Analysis &  <br /> Assessment</h4>
-                      <p  className='fs-11 w-75'>We attentively listen to understand your business goals and identify the best technology solutions for your needs.</p>
+                      <h4 className='fs-15 font-weight-bold'>Analysis &  Assessment</h4>
+                      <p  className='fs-13'>We attentively listen to understand your business goals and identify the best technology solutions for your needs.</p>
                     </div>
                     <div>
                     <p className='fs-16'>02</p>
-                    <h4 className='fs-15 font-weight-bold'>Project <br /> Planning</h4>
-                    <p className='fs-11 w-75'>In this crucial phase, we consolidate all features and requirements, establish priorities and set timelines.</p>
+                    <h4 className='fs-15 font-weight-bold'>Project Planning</h4>
+                    <p className='fs-13'>In this crucial phase, we consolidate all features and requirements, establish priorities and set timelines.</p>
                     </div>
                     <div>
                     <p className='fs-16'>03</p>
-                    <h4 className='fs-15 font-weight-bold'>Design <br /> Visualization</h4>
-                    <p className='fs-11 w-75'>We define how the product functions and enable you to see and interact with your solution before it is built.</p>
+                    <h4 className='fs-15 font-weight-bold'>Design Visualization</h4>
+                    <p className='fs-13'>We define how the product functions and enable you to see and interact with your solution before it is built.</p>
                     </div>
                     <div>
                     <p className='fs-16'>04</p>
-                    <h4 className='fs-15 font-weight-bold'>Development <br /> & Implementation</h4>
-                    <p className='fs-11 w-75'>At this stage, we bring your vision to life using the specified  technology stack and UI/UX designs.</p>
+                    <h4 className='fs-15 font-weight-bold'>Development & Implementation</h4>
+                    <p className='fs-13'>At this stage, we bring your vision to life using the specified  technology stack and UI/UX designs.</p>
                     </div>
 
                     <div>
                     <p className='fs-16'>05</p>
-                    <h4 className='fs-15 font-weight-bold'>Quality Assurance <br /> & Testing</h4>
-                    <p className='fs-11 w-75'>Our team of experts  ensures that your solution is secure and reliable through rigorous manual and automated testing to prevent bugs.</p>
+                    <h4 className='fs-15 font-weight-bold'>Quality Assurance & Testing</h4>
+                    <p className='fs-13'>Our team of experts  ensures that your solution is secure and reliable through rigorous manual and automated testing to prevent bugs.</p>
                     </div>
                     <div>
                     <p className='fs-16'>06</p>
-                    <h4 className='fs-15 font-weight-bold'>Launch <br /> & Support</h4>
-                    <p className='fs-11 w-75'>We not only bring your vision to life but are eager to ensure its growth and continuous evolution.</p>
+                    <h4 className='fs-15 font-weight-bold'>Launch & Support</h4>
+                    <p className='fs-13'>We not only bring your vision to life but are eager to ensure its growth and continuous evolution.</p>
                     </div>
                   </div>
                 </div>

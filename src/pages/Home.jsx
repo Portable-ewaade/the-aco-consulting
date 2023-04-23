@@ -121,7 +121,7 @@ useEffect(() => {
                   <div className="col-md my-3" data-aos={"fade-right"}>
                     <div className="aco-wedoo pt-2">
                       <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
-                     <h6>Software Development</h6>
+                     <h6 className="font-weight-bold">Software Development</h6>
                      <p className='grey fs-16 aco-wedo-p'>Take your business to the next level with reliable, 
                         scalable and unique software solutions built 
                         with the latest tools and technologies.</p>
@@ -130,7 +130,7 @@ useEffect(() => {
                   <div className="col-md my-3" data-aos={"fade-up"}>
                     <div className=" pt-2">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
-                    <h6>Cloud Migration</h6>
+                    <h6 className="font-weight-bold">Cloud Migration</h6>
                      <p className='grey fs-16 aco-wedo-p'>Position your organization for growth 
                         while increasing effectiveness, efficiency, 
                         and security.
@@ -140,7 +140,7 @@ useEffect(() => {
                   <div className="col-md my-3" data-aos={"fade-left"}>
                     <div className=" pt-2">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
-                    <h6>Product Design and Branding</h6>
+                    <h6 className="font-weight-bold">Product Design and Branding</h6>
                      <p className='grey fs-16 aco-wedo-p'>Build a strong brand identity and product to 
                         connect with your target audience using 
                         visually compelling branding strategies.</p>
@@ -152,7 +152,7 @@ useEffect(() => {
                   <div className="col-md my-3" data-aos={"fade-right"}>
                     <div className=" pt-2">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
-                    <h6>Strategy and Business Development</h6>
+                    <h6 className="font-weight-bold">Strategy and Business Development</h6>
                      <p className='grey fs-16 aco-wedo-p'>Drive growth and achieve your business objectives
                         with uniquely tailored growth strategies to
                         stay ahead of the competition.</p>
@@ -161,7 +161,7 @@ useEffect(() => {
                   <div className="col-md my-3" data-aos={"fade-up"}>
                     <div className=" pt-2">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
-                    <h6>Data Analytics</h6>
+                    <h6 className="font-weight-bold">Data Analytics</h6>
                      <p className='grey fs-16 aco-wedo-p'>Gain competitive advantage and increase
                         business value by identifying and 
                         capturing meaningful insights.
@@ -171,7 +171,7 @@ useEffect(() => {
                   <div className="col-md my-3" data-aos={"fade-left"}>
                     <div className=" pt-2 ">
                     <img src="../../../../assets/images/icon.png" alt="" className="mb-3" />
-                    <h6>Dedicated Team Building</h6>
+                    <h6 className="font-weight-bold">Dedicated Team Building</h6>
                      <p className='grey fs-16 aco-wedo-p'>Grow and scale business with a talented
                         and dedicated team of highly skilled
                         professionals for your projects.</p>

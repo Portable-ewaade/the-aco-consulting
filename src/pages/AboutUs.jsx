@@ -66,9 +66,9 @@ export const AboutUs = () => {
            <span className="cs-aco-red fs-65">Consultants</span></h2>
          </div>
              <div className='p-lg-5' data-aos={"fade-down"}> 
-              <p className='black fs-13 font-weight-bold'>We are tech enthusiasts, data geeks, process mavens, delivery strategists and industry experts focused on helping you grow and achieve your goals. We are curious, driven and love to tackle the big challenges that make a difference. We go over and beyond for our clients and teammates.</p>
+              <p className='black fs-16 font-weight-bold'>We are tech enthusiasts, data geeks, process mavens, delivery strategists and industry experts focused on helping you grow and achieve your goals. We are curious, driven and love to tackle the big challenges that make a difference. We go over and beyond for our clients and teammates.</p>
 
-              <p className='grey2 fs-13 pt-1'>A & co consulting is an innovation driven consultancy that harnesses the power of technology to provide sustainable and profitable solutions to clients world wide across various industries. We help organizations strategize, design, develop, implement and manage technological systems that drive revenue increase and growth to achieve goals.If you are ready to innovate and revolutionize your business, A & Co can help envision, execute and elevate you to the next level using the latest technologies. We recognize that impact is not created alone and together we can make history.</p>
+              <p className='grey2 fs-16 pt-1'>A & co consulting is an innovation driven consultancy that harnesses the power of technology to provide sustainable and profitable solutions to clients world wide across various industries. We help organizations strategize, design, develop, implement and manage technological systems that drive revenue increase and growth to achieve goals.If you are ready to innovate and revolutionize your business, A & Co can help envision, execute and elevate you to the next level using the latest technologies. We recognize that impact is not created alone and together we can make history.</p>
              </div>
          </div>
        </section>

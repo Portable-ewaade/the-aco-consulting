@@ -71,7 +71,7 @@ useEffect(() => {
           <div className="ui-wrapper-xlarge">
             <div className="container pt-2 text-start aco-services">
               <div className="row mx-5 aco-services">
-                <div className="col-lg-12 col-md-8 aco-service aco-hero">
+                <div className="col-lg-12 col-md-12 aco-service aco-hero">
                 <img src="../../../../assets/images/highlight.png" alt=""  style={{ height: 50, position: "relative", left: "-20px", top: "15px"}}/>
                   <h1 className="fs-60 grey font-weight-bold">
                   Smart Solutions
@@ -88,46 +88,46 @@ useEffect(() => {
         <section className=" border">
           <div className="ui-wrapper-large">
             <div className="container">
-            <div className="row works">
-                  <div className=" d-lg-flex justify-content-between p-5  service" >
-                  <div className='px-5 services' data-aos={"fade-left"}>
-                      <p className='fs-16'>01</p>
-                      <h4 className='fs-20 font-weight-bold'>Software <br /> Development</h4>
-                        <p className=' grey2 fs-14 w-75 services'>Our team of engineers build high-performing, 
-                          user friendly, and secure custom applications
-                          that provide superior customer experience and 
-                          ensure faster growth.</p>
-                        </div>
-                        <div className='w-25 services' data-aos={"fade-right"}>
+            <div className="works">
+                  <div className="row justify-content-between p-5  service" >
+                      <div className='col-lg-8 col-md-12 px-5 services' data-aos={"fade-left"}>
+                    <p className='fs-16'>01</p>
+                    <h4 className='fs-20 font-weight-bold'>Software <br /> Development</h4>
+                      <p className=' grey2 fs-16 w-75 services'>Our team of engineers build high-performing, 
+                        user friendly, and secure custom applications
+                        that provide superior customer experience and 
+                        ensure faster growth.</p>
+                      </div>
+                      <div className='services col-lg-4 col-md-12' data-aos={"fade-right"}>
+                      <div className="d-lg-flex justify-content-between aco-service-type">
+                        <p className='fs-16'> Custom Development Services</p>
+                      </div>
+                        <hr  className='grey2'/>
                         <div className="d-lg-flex justify-content-between aco-service-type">
-                          <p className='fs-16'> Custom Development Services</p>
-                        </div>
-                          <hr  className='grey2'/>
-                          <div className="d-lg-flex justify-content-between aco-service-type">
-                          <p  className='fs-16'> Application  Redesign and Modernization</p>
-                        </div>
-                          <hr className='grey2'/>
-                          <div className="d-lg-flex justify-content-between aco-service-type">
-                          <p  className='fs-16'>Web and Application Integration Services</p>
-                          
-                        </div>
+                        <p  className='fs-16'> Application  Redesign and Modernization</p>
+                      </div>
                         <hr className='grey2'/>
                         <div className="d-lg-flex justify-content-between aco-service-type">
-                          <p  className='fs-16'> Technology Consultation</p>
+                        <p  className='fs-16'>Web and Application Integration Services</p>
                         
-                        </div>
-                          
-
-                        </div>
                       </div>
+                      <hr className='grey2'/>
+                      <div className="d-lg-flex justify-content-between aco-service-type">
+                        <p  className='fs-16'> Technology Consultation</p>
+                      
+                      </div>
+                        
+
+                      </div>
+                  </div>
                  
-                  <div className="d-lg-flex justify-content-between p-5 service">
-                  <div className='px-5 services' data-aos={"fade-left"}>
+                  <div className="row justify-content-between p-5 service">
+                  <div className='col-lg-8 col-md-12 px-5 services' data-aos={"fade-left"}>
                       <p className='fs-16'>02</p>
                       <h4 className='fs-20 font-weight-bold'>Product<br/> Design and Branding</h4>
-                      <p  className='fs-14 w-75 grey2 services'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
+                      <p  className='fs-16 w-75 grey2 services'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
                     </div>
-                    <div className='w-25 services' data-aos={"fade-right"}>
+                    <div className='col-md-12 col-lg-4 services' data-aos={"fade-right"}>
                      <div className="d-lg-flex justify-content-between aco-service-type">
                       <p className='fs-16'> Web and Mobile App Design</p>
                      </div>
@@ -150,17 +150,17 @@ useEffect(() => {
                  
                 </div>
                
-                <div className="d-lg-flex justify-content-between p-5 service">
-                  <div className='px-5 services' data-aos={"fade-left"}>
+                <div className="row justify-content-between p-5 service">
+                  <div className='col-lg-8 col-md-12 px-5 services' data-aos={"fade-left"}>
                       <p className='fs-16'>03</p>
                       <h4 className='fs-20 font-weight-bold'>Dedicated <br /> Team Building</h4>
-                      <p  className='fs-14 w-75 grey2'>Expand your development capabilities
+                      <p  className='fs-16 w-75 grey2'>Expand your development capabilities
                           and augment your teams competence 
                           with a dedicated development team 
                           and subject matter experts.</p>
                     </div>
                     
-                    <div className='w-25 services' data-aos={"fade-right"}>
+                    <div className='col-lg-4 col-md-12  services' data-aos={"fade-right"}>
                      <div className="d-lg-flex justify-content-between aco-service-type">
                       <p className='fs-16'> Full Stack Developers</p>
                      </div>
