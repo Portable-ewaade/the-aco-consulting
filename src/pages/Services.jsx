@@ -125,7 +125,8 @@ useEffect(() => {
                   <div className='col-lg-8 col-md-12 px-5 services' data-aos={"fade-left"}>
                       <p className='fs-16'>02</p>
                       <h4 className='fs-20 font-weight-bold'>Product<br/> Design and Branding</h4>
-                      <p  className='fs-16 w-75 grey2 services'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
+                        <p  className='fs-16 w-75 grey2 services'>Build a strong  brand identity andproduct to connect with your target audience and users with amazing user
+  experience and interface design.</p>
                     </div>
                     <div className='col-md-12 col-lg-4 services' data-aos={"fade-right"}>
                      <div className="d-lg-flex justify-content-between aco-service-type">
