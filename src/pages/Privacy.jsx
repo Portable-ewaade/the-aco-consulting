@@ -49,7 +49,7 @@ useEffect(() => {
     
 
         <section className="p-5">
-          <div className="ui-wrapper-large" data-aos={"zoom-in"}>
+          <div className="ui-wrapper-large">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8  mx-auto">
