@@ -192,7 +192,7 @@ useEffect(() => {
            <h2 className="grey2 fs-45 font-weight-bold mb-3">Our <span className="line--acoo fs-45 mb-3 font-weight-bold">Processes</span></h2>
             <img src="../../../../assets/images/rough.png" alt="ee" className="underline-ash" />
            </div>
-            <p className='fs-16 grey2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
+            <p className='fs-16 grey2'>We believe in strategy, processes and fun when building out your dreams to ensure we deliver beyond expectations.</p>
           </div>
             {/* <div className="row ">
               <div className="col-md-4">
