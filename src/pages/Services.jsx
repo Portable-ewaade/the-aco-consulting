@@ -125,7 +125,8 @@ useEffect(() => {
                   <div className='col-lg-8 col-md-12 px-5 services' data-aos={"fade-left"}>
                       <p className='fs-16'>02</p>
                       <h4 className='fs-20 font-weight-bold'>Product<br/> Design and Branding</h4>
-                      <p  className='fs-16 w-75 grey2 services'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae,.</p>
+                        <p  className='fs-16 w-75 grey2 services'>Build a strong  brand identity andproduct to connect with your target audience and users with amazing user
+  experience and interface design.</p>
                     </div>
                     <div className='col-md-12 col-lg-4 services' data-aos={"fade-right"}>
                      <div className="d-lg-flex justify-content-between aco-service-type">
@@ -192,7 +193,7 @@ useEffect(() => {
            <h2 className="grey2 fs-45 font-weight-bold mb-3">Our <span className="line--acoo fs-45 mb-3 font-weight-bold">Processes</span></h2>
             <img src="../../../../assets/images/rough.png" alt="ee" className="underline-ash" />
            </div>
-            <p className='fs-16 grey2'>We believe in strategy, processes and fun when building out your dreams to ensure we deliver beyond expectations.</p>
+            <p className='fs-16 grey2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum sed eaque laudantium vitae, ut nam laboriosam</p>
           </div>
             {/* <div className="row ">
               <div className="col-md-4">

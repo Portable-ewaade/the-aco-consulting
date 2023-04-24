@@ -63,7 +63,7 @@ useEffect(() => {
                     <h5 className="fs-16 font-weight-medium">
                     This Policy is intended to help you understand: 
                     </h5>
-                    <ul>
+                    <ul className='privacy-list'>
                         <li>- why we collect your personal data;</li>
                         <li>- why we collect your personal data;</li>
                         <li>- why we collect your personal data;</li>
@@ -85,7 +85,7 @@ useEffect(() => {
                     <p className='black mt-3 fs-17'>
                     This Privacy Policy (“Policy”) describes how we handle the data you provide us with through the website https://relevant.software/ (“Site”), email and our social media accounts such as Facebook and LinkedIn (“social media accounts”). Such treatment may include, but is not limited to, the following:
                     </p>
-                    <ul>
+                    <ul className='privacy-list'>
                         <li> - collection, </li>
                         <li> - collection, </li>
                         <li> - collection, </li>
@@ -139,13 +139,13 @@ useEffect(() => {
                     <h1 className="fs-30 font-weight-bold mrgt2">
                       Data we Collect
                     </h1>
-                    <ul>
-                        <li>- why we collect your personal data;</li>
-                        <li>- why we collect your personal data;</li>
-                        <li>- why we collect your personal data;</li>
-                        <li>- why we collect your personal data;</li>
-                        <li>- why we collect your personal data;</li>
-                        <li>- why we collect your personal data;</li>
+                    <ul className='privacy-list'>
+                        <li className='pl-0'>- why we collect your personal data;</li>
+                        <li className='pl-0'>- why we collect your personal data;</li>
+                        <li className='pl-0'> - why we collect your personal data;</li>
+                        <li className='pl-0' >- why we collect your personal data;</li>
+                        <li className='pl-0'>- why we collect your personal data;</li>
+                        <li className='pl-0'>- why we collect your personal data;</li>
                     </ul>
 
                     <p className='black mt-3 fs-17'>
@@ -169,7 +169,7 @@ useEffect(() => {
                     <h1 className="fs-30 font-weight-bold mrgt2">
                       Data we Collect
                     </h1>
-                    <ul>
+                    <ul className='privacy-list'>
                         <li>- why we collect your personal data;</li>
                         <li>- why we collect your personal data;</li>
                         <li>- why we collect your personal data;</li>

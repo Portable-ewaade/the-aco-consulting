@@ -1070,3 +1070,7 @@ li {
 .aco-ready h1{
  letter-spacing: 4px;
 }
+
+.privacy-list {
+	padding-left: 0 !important;
+}
