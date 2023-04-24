@@ -52,9 +52,9 @@ export const Footer = () => {
               <p className='white fs-10 font-weight-xlight'>&copy; <span className='m-2'>2023 A & Co Consulting</span></p>
             </div>
             <div className="d-flex white fs-10 social terms justify-content-between font-weight-xlight">
-            <li> <a href="/">Privacy Policy</a></li>
-            <li> <a href="/">Legal</a></li>
-            <li> <a href="/">Terms & Condition</a></li>
+            <li> <a href="/privacypolicy">Privacy Policy</a></li>
+            {/* <li> <a href="/">Legal</a></li>
+            <li> <a href="/">Terms & Condition</a></li> */}
             
           </div>
 
