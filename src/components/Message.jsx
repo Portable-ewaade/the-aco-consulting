@@ -4,10 +4,10 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 
-import lottieSuccess from './checkgreen.json'
-import lottieError from './checkred.json'
+// import lottieSuccess from './checkgreen.json'
+// import lottieError from './checkred.json'
 
-import LottiePlayer from './Lottie'
+// import LottiePlayer from './Lottie'
 
 const Message = ({ title, message, status, lottieSize, loop, buttonText, setBg }) => {
 
@@ -22,10 +22,10 @@ const Message = ({ title, message, status, lottieSize, loop, buttonText, setBg }
 
             <div style={ {  backgroundColor: '#fff' ? '#fff' : '', padding: '1.5rem 2.5rem'  ? '1.5rem 2.5rem' : '', borderRadius: '1.5rem' ? '1.5rem' : '' } }>
                 <div className="mrgt2 text-center">
-                    <LottiePlayer 
+                    {/* <LottiePlayer 
                     lottieData={status && status === 'success' ? lottieSuccess : lottieError} 
                     h={lottieSize ? lottieSize : 80} w={lottieSize ? lottieSize : 80} 
-                    loop={loop ? loop : false} />
+                    loop={loop ? loop : false} /> */}
                 </div>
 
                 <div className="ui-text-center mrgt3 mrgb3  text-center">

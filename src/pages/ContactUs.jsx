@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import React, { useRef, useState, useEffect} from "react";
 import emailjs from "@emailjs/browser";
-import Message from '../components/Message';
+// import Message from '../components/Message';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -103,7 +103,7 @@ useEffect(() => {
                    }
 
                    
-                      {
+                      {/* {
                                         step === 1 &&
                                         <>
                                             <Message 
@@ -114,7 +114,7 @@ useEffect(() => {
                                             buttonText='Go back'
                                             />
                                         </>
-                                    }
+                                    } */}
 
                   </form>
 
